@@ -9,28 +9,28 @@ function CatPrev() {
         Title={"Hyper"}
         w={250}
         h={250}
-        ImgLink="./src/assets/Hyper.png"
+        ImgLink="/assets/Hyper.png"
       />
       <SingleCard
         to={"/sports"}
         Title={"Sports"}
-        ImgLink="./src/assets/Sports.png"
+        ImgLink="/assets/Sports.png"
       />
       <SingleCard
         to={"/standard"}
         Title={"Standard"}
-        ImgLink="./src/assets/Standard.png"
+        ImgLink="/assets/Standard.png"
       />
       <SingleCard
         to={"/offroad"}
         Title={"OffRoad"}
-        ImgLink="./src/assets/Offroad.png"
+        ImgLink="/assets/Offroad.png"
       />
       <SingleCard to={"/ev"} Title={"EV"} ImgLink="./src/assets/EV.png" />
       <SingleCard
         to={"/customize"}
         Title={"Modified"}
-        ImgLink="./src/assets/Customize.png"
+        ImgLink="/assets/Customize.png"
       />
     </div>
   );
