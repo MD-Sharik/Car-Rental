@@ -26,7 +26,7 @@ function CatPrev() {
         Title={"OffRoad"}
         ImgLink="/assets/Offroad.png"
       />
-      <SingleCard to={"/ev"} Title={"EV"} ImgLink="./src/assets/EV.png" />
+      <SingleCard to={"/ev"} Title={"EV"} ImgLink="/assets/EV.png" />
       <SingleCard
         to={"/customize"}
         Title={"Modified"}
