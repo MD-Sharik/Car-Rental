@@ -4,15 +4,10 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="w-screen flex justify-between items-center py-[2.2rem] px-4 md:px-10">
+      <div className="flex justify-between items-center py-[2.2rem] px-4 md:px-10">
         <div>
           <Link to="/">
-            <img
-              width={50}
-              height={50}
-              src="./src/assets/icon.png"
-              alt="Logo"
-            />
+            <img width={50} src="./src/assets/icon.png" alt="Logo" />
           </Link>
         </div>
         <div>

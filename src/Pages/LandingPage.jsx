@@ -10,7 +10,7 @@ function LandingPage() {
         <img
           width={600}
           height={"auto"}
-          src="./src/assets/HeroCar.png"
+          src="./public/assets/HeroCar.png"
           className="absolute inset-0 mx-auto"
           alt="hero"
         />
