@@ -10,13 +10,13 @@ function LandingPage() {
         <img
           width={600}
           height={"auto"}
-          src="./public/assets/HeroCar.png"
+          src="assets/HeroCar.png"
           className="absolute inset-0 mx-auto"
           alt="hero"
         />
         <Form />
         <img
-          src="./src/assets/Clippathgroup.png"
+          src="assets/Clippathgroup.png"
           className="hidden md:block absolute inset-0 mx-auto z-[-2]"
           alt="img"
         />
@@ -32,7 +32,7 @@ function LandingPage() {
           {/* Select Car */}
           <div className="flex flex-col items-center">
             <img
-              src="./src/assets/Select.png"
+              src="/assets/Select.png"
               width={130}
               height={130}
               className="block"
@@ -49,7 +49,7 @@ function LandingPage() {
           {/* Contact Support */}
           <div className="flex flex-col items-center mt-14 lg:mt-0">
             <img
-              src="./src/assets/Support.png"
+              src="/assets/Support.png"
               width={130}
               height={130}
               className="block"
@@ -66,7 +66,7 @@ function LandingPage() {
           {/* Let's Ride */}
           <div className="flex flex-col items-center mt-14 lg:mt-0">
             <img
-              src="./src/assets/Drive.png"
+              src="/assets/Drive.png"
               width={130}
               height={130}
               className="block"
