@@ -3,9 +3,9 @@ import React from "react";
 function Form() {
   return (
     <>
-      <div className="bg-zinc-100 rounded-xl w-[18rem] h-[24rem] p-6 shadow-lg">
+      <div className="bg-white rounded-xl w-[18rem] h-[24rem] p-6 shadow-xl sm:w-[25rem] sm:h-[28rem] sm:p-6">
         <form className="max-w-sm mx-auto">
-          <div className="mb-5">
+          <div className="mb-5 mt-8">
             <label
               htmlFor="email"
               className="block mb-2 text-sm font-medium text-gray-900"
@@ -16,11 +16,11 @@ function Form() {
               type="email"
               id="email"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              placeholder="name@flowbite.com"
+              placeholder="your@email.com"
               required
             />
           </div>
-          <div className="mb-5">
+          <div className="mb-5 mt-8">
             <label
               htmlFor="password"
               className="block mb-2 text-sm font-medium text-gray-900 "
@@ -28,13 +28,14 @@ function Form() {
               Your password
             </label>
             <input
+              placeholder="*********"
               type="password"
               id="password"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5 "
               required
             />
           </div>
-          <div className="flex items-start mb-5">
+          <div className="flex items-start mt-6 mb-5">
             <div className="flex items-center h-5">
               <input
                 id="remember"

@@ -20,7 +20,6 @@ import Ev from "./Pages/SubPage/Ev.jsx";
 import Hyper from "./Pages/SubPage/Hyper.jsx";
 import Sports from "./Pages/SubPage/Sports.jsx";
 import Customize from "./Pages/SubPage/Customised.jsx";
-import { LoaderInfo } from "./components/SingleCard/MultiCard.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,7 +30,7 @@ const router = createBrowserRouter(
       <Route path="contact" element={<ContactPage />} />
       <Route path="login" element={<LoginPage />} />
       <Route path="signup" element={<SignupPage />} />
-      <Route path="hyper" loader={LoaderInfo} element={<Hyper />} />
+      <Route path="hyper" element={<Hyper />} />
       <Route path="standard" element={<Standard />} />
       <Route path="sports" element={<Sports />} />
       <Route path="offroad" element={<Offroad />} />
