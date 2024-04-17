@@ -15,9 +15,10 @@ function MultiCard({ model, ImgLink, onClick }) {
           <h2 className="text-center text-red-500 font-medium">{model}</h2>
           <div className="mt-4">
             <img
-              className="w-full h-[8rem] object-scale-down"
               src={ImgLink}
               alt="Car"
+              className="w-full h-[8rem] object-scale-down"
+              loading="lazy"
             />
           </div>
         </div>
