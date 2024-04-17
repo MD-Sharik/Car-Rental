@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MultiCard from "../../components/SingleCard/MultiCard";
+import Stats from "../../components/Stats/Stats.jsx";
 
 function Hyper() {
   const [heroImage, setHeroImage] = useState(
@@ -13,7 +14,17 @@ function Hyper() {
   return (
     <>
       {/* Hero Image */}
-      <div className="h-96 w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-300 my-[4rem] flex justify-center">
+      <div className="h-96 relative w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-300 my-[4rem] flex justify-center ">
+        <div className="fixed z-999 top-[6.9rem] sm:left-[-5rem] sm:absolute sm:top-[-1rem] lg:left-[-1rem] lxg:left-[-5rem] smd:left-[-2rem] md:left-[-2rem]">
+          <Stats
+            brand={"BMW"}
+            model={"x5"}
+            year={2016}
+            owner={"dave"}
+            fuel={"Petrol"}
+            speed={220}
+          />
+        </div>
         <img
           src={heroImage}
           width={650}
