@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import MultiCard from "../../components/SingleCard/MultiCard";
 import Stats from "../../components/Stats/Stats.jsx";
+import BackBtn from "../../components/BackBtn/BackBtn.jsx";
+import Served from "../../components/Served/Served.jsx";
 
 function Hyper() {
   const [heroImage, setHeroImage] = useState(
@@ -13,9 +15,15 @@ function Hyper() {
 
   return (
     <>
+      <div className="py-8 mb-5 flex w-[50vw] justify-start ml-auto mr-auto mt-32 sm:mt-10">
+        <div>
+          <BackBtn Page={"Hyper"} />
+        </div>
+      </div>
+      <Served num={"2.5k"} rate={4.5} rent={"$5k~$8k"} />
       {/* Hero Image */}
-      <div className="h-96 relative w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-300 my-[4rem] flex justify-center ">
-        <div className="fixed z-999 top-[6.9rem] sm:left-[-5rem] sm:absolute sm:top-[-1rem] lg:left-[-1rem] lxg:left-[-5rem] smd:left-[-2rem] md:left-[-2rem]">
+      <div className="h-96 relative w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-100 my-[4rem] flex justify-center ">
+        <div className="fixed z-999 top-[5rem] sm:left-[-5rem] sm:absolute sm:top-[-1rem] lg:left-[-1rem] lxg:left-[-5rem] smd:left-[-2rem] md:left-[-2rem]">
           <Stats
             brand={"BMW"}
             model={"x5"}
@@ -106,10 +114,6 @@ function Hyper() {
           onClick={handleImageClick}
           model={"L-Huracan"}
         />
-      </div>
-      <div className="bg-red-50 h-24">
-        <h2>Hyper</h2>
-        <p>We have Served Over 1.5K+ Hyper Cars</p>
       </div>
     </>
   );

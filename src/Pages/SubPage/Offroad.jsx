@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import MultiCard from "../../components/SingleCard/MultiCard";
-
+import Stats from "../../components/Stats/Stats.jsx";
+import BackBtn from "../../components/BackBtn/BackBtn.jsx";
+import Served from "../../components/Served/Served.jsx";
 function Offroad() {
   const [heroImage, setHeroImage] = useState(
     "https://lh3.googleusercontent.com/fife/ALs6j_E0RYKKlc6Xo6yQ-netkcLJbNrB-RGZQn9Vu9bh_IjVnpq8FWap5d9kXpd07C9F_-0hJiKVdntzdou85pNZGkA09DE0pfrLF63ER5MfyRbNueE1TjEfnHk6mcnz0d4qZ-i3sY5-ON9_GpQyB-mSmzDy4R4M9ccvveNgVkNuk6JFqtvRAEalccS0W963jVY8xo1geINSH33wmhSit7c9-q21lVbOd3cad_aaiYq8cOugC2373G0Tg-jRLfkRadDSQkjGzYhpJ6tjHCbyp1lhM650TTAO3oM0xHx_1pXGN5pcru8uzCHaUXuEA5kwlgJxh8A3RCaYpKtMyPC-gFPpZXgAXr704q6VkAZRAFBbyBlNqf0PbGBGRGjKi4FmOR4V3o5Y4d8NR-qWj7r7fNN7ZlJutCMPxtdU2hhSx7ONJQOFekV1_0Zj5LqcEeKd-zw1fTLBGTgWPY-vEr7q6WA59q6vGmXHJFb1rt-6O3r7axTtA7HxlwJGoEzxKp1SKhVJMOuHzY9TqnlRGnBlgEQJpyNWUMyOn2qY-QaQuCT1v4iSeLW3UNgLQIxK9jyvYsqQGEh_Xu_bKVav0rMHWUbdLQlU4rQGqnBJ5IrxAj7ixRYnLobZIasWqFW6QEHpmY5sjySCL-cY4wQI6KOAovLNuaKQ2o4Ei0CJyTNbiD8bC-jDWQ4oU7s9C3pelfe281nkGNd3IAQ709gzxZhM2n76-SWV5JONY21RTKlLT7AL5wkcvjZX6mNIWWx6NbowSto0MF83ImXsGw3H_stnRBZQ_J1y9f7zG7tkX1LHis6j7YiwJdftgJLaO02nuwjZeEwMPMfSHUljRMdYJ5PX9AdyE11CMNVJxhpjSGwGa9TQl5UNmYKr42y0zZoRhuAr34TrrnzVEIFyNPYLPDs9YXLewKwvOiJcYOaKmPRTV7vhX5H1YteX7CL277YjcZTNGvUHRYYNAQCvVYni5hxcQ78tpeVcvgqxQjVXEvg3t7B7_C1zbYE25vNAb0-34mS1V4qwTrFKGtjZCRrpaIVGoNrWM7SqGK1TRTUyBhboj8dDbtU4S2r_1bnSOKBpleHA_w0ky8LWe8H_XR2T_by6KCu8kSS6VINzQVxzV-rwS6BLM3ixy9o7xH6ZVQNmCof7-Jvs8iDydE4gtEkfM0_5OEmXuEKp-ylKquX0Tm4xcKygqIEvY-WYa2eqiIxFq0-cvRgVfLg1HlTt3o-3sMCaAMVTCRlx9XgeALjiLgX9Abi3biO8dHs55XD9sVWwi_nDkBA2RSpBYJpzeHZoYrVb1PNFQO4YKeQ7Nj4MjIxo1G8smvWcSTsWgV90HARhxfMI-iczUlkTcE3yBDgS0-um_CoyN8b9E_OMWu9-wb3-TtAbrXHfAxgwRQSQnDxBqsjKfTeKMqkejsr-6ZAKmiBePdTyqP9rkHS_ruquEjo-6PvRryUMJ8xjRKk2cM2G2WaHWkxP4A7V9ToVplbNe-4jXVJQa_2mpUDQtLe9MN4o3IAj6ge2Ts9W-XaUgnfj1i2dLnwyHnhFEBrXht8JKI9LVC17MMBvmgC51yx14LoFtm_MDFh0C_qLJoKZ-QnhOoatbKmtIn5ppyP_YjebEoXGGzyysHbJ6BsEbJ0-699OTb6QAlBbh1sjBsk7mQ=w2576-h1584"
@@ -12,8 +14,24 @@ function Offroad() {
 
   return (
     <>
+      <div className="py-8 mb-5 flex w-[50vw] justify-start ml-auto mr-auto mt-32 sm:mt-10">
+        <div>
+          <BackBtn Page={"OffRoad"} />
+        </div>
+      </div>
+      <Served num={"1.8k"} rate={4.7} rent={"$2k~$3k"} />
       {/* Hero Image */}
-      <div className="h-96 w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-300 my-[4rem] flex justify-center">
+      <div className="h-96 relative w-[18rem] sm:w-[30rem] px-6 md:w-[46rem] lg:w-[64rem] rounded-lg m-auto bg-zinc-100 my-[4rem] flex justify-center">
+        <div className="fixed z-999 top-[5rem] sm:left-[-5rem] sm:absolute sm:top-[-1rem] lg:left-[-1rem] lxg:left-[-5rem] smd:left-[-2rem] md:left-[-2rem]">
+          <Stats
+            brand={"BMW"}
+            model={"x5"}
+            year={2016}
+            owner={"dave"}
+            fuel={"Petrol"}
+            speed={220}
+          />
+        </div>
         <img
           src={heroImage}
           width={650}

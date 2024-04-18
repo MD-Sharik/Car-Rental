@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="flex justify-between sticky top-0 z-[999] bg-white items-center py-[2.2rem] px-4 md:px-10 shadow-md">
+      <div className="flex justify-between sticky top-0 z-[999] bg-white items-center py-[1.5rem] px-4 md:px-10 shadow-sm">
         <div>
           <Link to="/">
             <img
@@ -30,20 +30,7 @@ function Header() {
                 Home
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                to="/categories"
-                className={({ isActive }) =>
-                  `cursor-pointer text-gray-800 ${
-                    isActive
-                      ? "text-black underline decoration-red-500 underline-offset-[0.5rem] decoration-2"
-                      : "text-gray-500"
-                  } transition-all hover:text-red-500`
-                }
-              >
-                Categories
-              </NavLink>
-            </li>
+
             <li>
               <NavLink
                 to="/about"
