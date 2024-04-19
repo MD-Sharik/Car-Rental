@@ -7,10 +7,10 @@ function SingleCard({ Title, ImgLink, to }) {
       <div className="bg-zinc-100 rounded-lg transition-[200ms] overflow-hidden hover:shadow-lg hover:-translate-y-2 hover:cursor-pointer active:outline active:outline-1 active:outline-red-400">
         <div className="px-4 py-5">
           <Link to={to}>
-            <h2 className="text-center text-red-500 font-medium">{Title}</h2>
+            <h2 className="text-center text-zinc-600 font-medium">{Title}</h2>
             <div className="mt-4">
               <img
-                className="w-full h-[8rem] object-scale-down"
+                className="w-full h-[8rem] object-contain"
                 src={ImgLink}
                 alt="Car"
               />

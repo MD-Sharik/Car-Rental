@@ -3,11 +3,11 @@ import React from "react";
 export default function Testimonial({ def, name, imglink }) {
   return (
     <>
-      <div class="bg-white min-w-[10rem] max-w-[30rem] h-[24rem] shadow-lg rounded-lg ">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-          <figure class="max-w-screen-md mx-auto">
+      <div className="bg-white min-w-[10rem] max-w-[30rem] max-h-[30rem] md:h-[24rem] shadow-lg rounded-lg ">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+          <figure className="max-w-screen-md mx-auto">
             <svg
-              class="h-12 mx-auto mb-3 text-red-200 "
+              className="h-12 mx-auto mb-3 text-red-200 "
               viewBox="0 0 24 27"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -18,17 +18,19 @@ export default function Testimonial({ def, name, imglink }) {
               />
             </svg>
             <blockquote>
-              <p class="text-2xl font-medium text-gray-900 ">{def}</p>
+              <p className="text-2xl font-medium text-gray-900 ">{def}</p>
             </blockquote>
-            <figcaption class="flex items-center justify-center mt-6 space-x-3">
+            <figcaption className="flex items-center justify-center mt-6  space-x-3">
               <img
-                class="w-6 h-6 rounded-full"
+                className="w-6 h-6 rounded-full"
                 src={imglink}
                 alt="profile picture"
               />
-              <div class="flex items-center divide-x-2 divide-red-200 ">
-                <div class="pr-3 font-medium text-red-400 "></div>
-                <div class="pl-3 text-sm font-light text-gray-500 ">{name}</div>
+              <div className="flex items-center divide-x-2 divide-red-200 ">
+                <div className="pr-3 font-medium text-red-400 "></div>
+                <div className="pl-3 text-sm font-light text-gray-500 ">
+                  {name}
+                </div>
               </div>
             </figcaption>
           </figure>

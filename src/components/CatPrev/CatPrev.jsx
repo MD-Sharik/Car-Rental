@@ -3,12 +3,10 @@ import SingleCard from "../SingleCard/SingleCard";
 
 function CatPrev() {
   return (
-    <div className=" px-2 sm:max-w-[96rem] gap-6 flex-1 m-auto flex flex-wrap justify-between mt-16 sm:px-[8rem] lg:justify-center ">
+    <div className=" px-2 gap-6 flex-1 sm:flex-1 m-auto flex flex-wrap justify-evenly sm:basis-[16rem] mt-16 sm:px-[8rem] lg:justify-center ">
       <SingleCard
         to={"hyper"}
         Title={"Hyper"}
-        w={250}
-        h={250}
         ImgLink="https://lh3.googleusercontent.com/fife/ALs6j_GJvMeqlCZRqYHysaMcMXmlzLK07hVVNOtO4QgB6U2avnNLpcuMVbFrnrAH3JLAuFvHJY9RA_-dXJvsmJ4PJ2GDMMPia4LhVRSFGyMMiJnQ0oEbdyh8DWgqjkxtmQ0IAhI_Rb2hmmtSFdkwfUaijGVtOB-gL7xUR0SRegX0ST6Pjl0PmQxWbeoIpeGnRO-HB0oO8UGWOt0cvmTPSoM4V584YgCfQwqgI6aRYNATppP7lpTKlWuRGyaRQf5V2zrwYF1Rgu-52lQh2LFS__3To0ycyfaS4K2-CpGWmb_geRoW_MTZTj2S3fkkPB-wPwumWlrRu50T4olyZKsIqfkHsbew5gkFKhVieH27wy3G78LkCQgfUTUpPtYq6HugRyCWfimbCns5qcTbQl5ovJVYyYiYm94-KirjEo8IdEvzl-y_hsmA5dEA2hnYeqQSE49LdIXiL9j5VY5A322girL113a9BX-wIyyRrphOsLNjWhVXSwuzjns88ELUsrkg_WBpMjZAfF4XWtMY6pwg170FTnBgU3vuqIMWJGw5PTZFS53SqFDC0EU3YAQJGRyrrJprcfWlj4SyeP3uLuxNYGYcEJ0LxKytQHD4nor27aGpNR8DgfjsQpXRkYigC9xNv_4vR4UK3F-1s4pKwjjHIHC2pkxmYmSVk2BPY1Hp_PZvUH_cPHxsR2Sk1mUNWDQZs2XAzn3PIebttKJ9AxlAX1qlVhKq4RSxHaB6rmgZ9bJP-i-bHDfD418vBTe9wtO46oBwM7_-f8wdjO5Kl9WW3hdNqMcAnrvdsy6944rmJMbk1YyTlY2I1FmbySAiVI_pY9vlQV4ZBm51ceoYUF3FBwt0-TM3zVRGeeF49eSZnhvJQDZ1wAvZtxoaXiz5v8s5ESB60k9GetEcrw9pZEp_tr-bfEUw1DJxqtHitGT0B7QtwEnPglCYGyYlZRIB1YKBKbhTKUpkrj6Fg2AWW64XA1fOtV-u54_HzoWMu_DENqUHcOBknfT4AgbHDzOGXxyj4mKd8ZsdhepthZ15uVA33Pggytga5RJtPYXgZEDmSgD5pXWZG15_RdwXeKnJ1eeuOKvItGNCiZwUj5W0rf2ayHfFjxN_eIwJ6TwiEeTd7cLmNU6btuT70BPrum1F4IDJEcAMa3IA5dx-KWsyoxe0-uQJYvChkY__7YCoqr6OGlRo05Ud6EXmZu-Lnyqj9fqCmUWBIMML0krfvBj-ZB40D91-1dpzHxEz6smf5A2QNjQWEmetbAqO2P3A2ilk4_m5XiuIH1UnvuD73EoRb_jT7AEqw9y0fvVt5XtkvWGo9RDhH4Y6oGQZ3ydzsKPVOzZA_Qqy8Gt399PM6x3tJAxrUSqLgKVuhHcPkmee2DjzNyM1HQ0QjVh4m5NLWvQjjW7cj6mrQ1Kcc5FUviyhHbetV3Tbt1IlnJeaHG9IcKzM4NEBX4JcmTMB4wu05n_cOB24FAub8xYhCZ66fbF0414ZHo5kMfAiu7AGwVgY0l0T0K7yJVGM3uEZhlg7R7o10MGLKA9aH1KxkNiq22qZ5Kr9_ec_q2WnynP73Q8UXdxoNAUOLAQa2f8w-6bP5Q_7U9P_nbp6W7VmmWsuwP1Xv1wXCY4WB9v8zusehwbpR6aeM8uP5glfOGFn_eDTgA=w1670-h1584"
       />
       <SingleCard

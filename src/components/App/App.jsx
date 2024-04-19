@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-zinc-200 h-[30rem] px-20 flex justify-between">
+    <div className="bg-zinc-200 min-h-[30rem] px-20 flex justify-between">
       <div className="py-20 text-center lg:text-left">
-        <h2 className="text-5xl font-bold mb-6 w-12ch lg:w-full">
+        <h2 className="text-5xl font-bold mb-6 max-w-[24ch] lg:w-full">
           Download our app to get most out of it
         </h2>
         <p className="max-w-[65ch] mr-auto ml-auto lg:ml-0 text-zinc-600">
@@ -13,7 +13,7 @@ function App() {
           order event music. Incommode so intention defective at convinced. Led
           income months itself and houses you.
         </p>
-        <div className="mt-9  relative left-[-1rem]">
+        <div className="mt-9  relative sm:left-[-1rem]">
           <button>
             <Link to="/about">
               <img
