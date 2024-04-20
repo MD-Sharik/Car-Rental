@@ -20,7 +20,7 @@ function CatPrev() {
         Title={"OffRoad"}
         ImgLink="\assets\Offroad.webp"
       />
-      <SingleCard to={"/ev"} Title={"EV"} ImgLink="public\assets\EV.webp" />
+      <SingleCard to={"/ev"} Title={"EV"} ImgLink="\assets\EV.webp" />
       <SingleCard
         to={"/customize"}
         Title={"Modified"}
