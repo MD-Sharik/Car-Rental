@@ -13,11 +13,7 @@ function AboutPage() {
       </div>
       <div className="m-auto flex flex-col items-center">
         <div className="m-auto object-contain my-4 px-12">
-          <img
-            width={1200}
-            src="https://lh3.googleusercontent.com/fife/ALs6j_Fh-WW9ET313brS33TTjwhGAt2OiPUUDJxV0nwo8j8vZhvQqp-ZmaSFKSK1FuExFaAo5OghQVZs4dSz0sjneYA_VczS5JH8wsPc1OMiJg_lC-z8TA8iIL7-Abos1NqKiUMlpP8RorZL1VDK3M3lRmOhPSmFbEdXu4hEFDnu41fCRxHBamA0UBnZOpAlIM_lm6UNxt4fdRiujY8ZJ4NhSEmFCmFIIRw-HCdo2dALvm4LjmwXf2wRcLNVqMdzxqyJ85M5S09NmWbFyPpnIOS8r_h_0rnEvFYq98741gLQNGkMIAQXFYXyGoBSwb9KNG-KS1toTK-hru4aoyI-O8EKokFwdsb_D7IIiPfFtSA3F1v1Kh8FZ-XrbHMtAdAQZMEYp-AFnpYylBcaN6ejc5_vJvVFYKxmhy__uOFwTb5b5dCkwafTtYMxmNTS3vBQZCmmCGl-XGma38lyXJTpEOfXv_SG1RM_zOeldFPLBDxhhuDB-ByDYZA-I68bZr0zx_x2xxHq4wRTGfRT6uovG3KSjK7A94aeTg2YG8wiVEWgPBMHmseUB6N17_f2nhZuEbtunOQujW_egIpnunuvx__0VSlTuytVCgp9aREr5wnk87hgmQqhx1PHmJZqNgY8Urs_N2fp02cUEsytEGgyR0GQRhp-lLvs_QzptkpKtqNbcoMNnkifBmGL_-IZogWavZk1itTqrYdIiOZYsrkqbLyQcvRMNpLPrc6nT65GWMhLe4V_pXtxtMWbaiwEv5idal4pCJHRFxAHzkgRySo4y5x5-2kBp5muGzipMvgH9-XI0skMxwGiXEHV85axbZmkG7pLV0Y2FZwxlFVkl1iu3ZBgGXwrIb2bjNnzwA1yMWcIdoN8rz75z8IXGrkBxVjfukzJFluIOd_s7TEols8IPHbPcj53P3H8DYkhuFD_a0nPWPEKeJsy57HSooVmlLzNL3w-JfPOiX13hkG5ikieVaXLh2cx1p6oCEJoCGTaxuR7rM3LzhfvnOV0t_avqHFIJW2rF2x8FTHmhNBEi9lKn8CEHcfW_Vw8DvoTMZiusGLOsDcSVZTCllZ3ks4OcS-J0wKwc_RbXbKmK5F6nfzZEkg7BIlOpVHSD4LCHB8Ia6j8yY2QpY5qcx6A3Uu5tqX-qjWDXcy2y57HY1QWKCODXXkcO8qtlSES1-WIqDhUHggbEoXRNH1IeneWrPWdP5rREocfqcjuG_LQSfUOp72fQwgN8vtoEmslbeHsI01yVgBx6I8RYqzBdgmpDxt5fxNwIRw3w4LhTcx3ZFkC_cpzt1I9YJ3OBhj7OoyLhSG3O_i7bv8e9OoguXov78O8JgEQiH95xvgfdh6pn92Ugo0woJYzS15HM6I--3J3pd_RwyucVE3r3S6PE4s05cgEqHmjAqDqmZtIHa75as-lC1K26oqBF41jVCfR7gI385FRgjm4TuBpdruqh3a_J_MNoYNZwJTnO4GxHlqJsCfKFb52Pk2YJi5Rys9FvK_TdIYvYdgARuYVWx8dixm27UDT-4x1dip-WJAhLbKi9HD-pEpQpqirS68ULLsknkCGuregmYoy4FhVeWQjxKMXQvMAtrSraYCZruFyvYBgffAMeYSiGXB59QnPj-69ueOyz5_sbJT6I5upk9O6x9kReZqczA=w1798-h1556"
-            alt="car"
-          />
+          <img width={1200} src="\assets\Group 51.webp" alt="car" />
         </div>
         <div className="block text-center smd:text-left smd:flex justify-between m-auto px-11 py-6 gap-11 mt-8 mb-8 ">
           <div>
@@ -28,16 +24,22 @@ function AboutPage() {
               </h2>
               <p className="w-full text-center smd:text-left max-w-[72ch] my-2 text-zinc-600">
                 Discover the best deals you'll ever find with our unbeatable
-                offers. We're dedicated to providing you with the best value for
-                your money, so you can enjoy top-quality services and products
-                without breaking the bank. Our deals are designed to give you
-                the ultimate renting experience, so don't miss out on your
-                chance to save big.
+                offers. At our core, we're committed to ensuring you get the
+                most bang for your buck, delivering unparalleled value that
+                exceeds your expectations. Whether you're seeking top-notch
+                services or premium products, we've meticulously crafted our
+                deals to cater to your needs, all while keeping your budget
+                intact. We understand the importance of a seamless renting
+                experience, which is why our deals are designed to elevate your
+                journey from start to finish. From exclusive discounts to
+                irresistible packages, we've curated a selection that promises
+                to enhance every aspect of your rental adventure. So seize the
+                opportunity to save big and embark on a journey filled with
+                incredible savings and unparalleled satisfaction. Don't let this
+                chance slip away – join us and experience the epitome of value
+                today!
               </p>
             </div>
-            <button className="bg-red-600 my-10 text-white px-[1.8rem] font-medium py-[1rem] rounded-md shadow-lg shadow-red-200">
-              <Link to="/about">Learn more</Link>
-            </button>
           </div>
           <div className="my-16 text-center m-auto smd:text-left">
             <div className="flex flex-col gap-3  items-center smd:gap-5 smd:flex smd:flex-row max-w-[70ch] mb-4">
@@ -110,7 +112,7 @@ function AboutPage() {
           <h3 className="text-3xl font-medium">Plan your trip now</h3>
           <h2 className="text-5xl font-bold">Quick & easy car rental</h2>
         </div>
-        <div className="flex flex-col lg:flex-row justify-evenly mt-14 lg:mt-28">
+        <div className="flex flex-col m-auto max-w-[75rem] lg:flex-row justify-evenly mt-14 lg:mt-28">
           {/* Select Car */}
           <div className="flex flex-col items-center">
             <img

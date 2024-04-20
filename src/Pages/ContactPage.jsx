@@ -11,11 +11,7 @@ function ContactPage() {
         </div>
       </div>
       <div className="flex justify-center object-contain my-4 px-12">
-        <img
-          width={1200}
-          src="https://lh3.googleusercontent.com/fife/ALs6j_FqCdS38tcZzDBTqbgLZ8ym4V3EkyyJ2l-9BViug0ZsGaL---DGgj_agWIhiKS942WODpsit57yfauJn_BBNdIpo6J3pa2ws82tZ-i70X30X8ZfQ58pSzLKxaGCsdvuOEBejosO1CdLwC-O_AlupzBznVBBTnTUKyvZUInk1urM3CjbJP8IMzyW8tAgIH4Mwv_BZRIOFchHq_pmHnPYbpcEahOdL4yFhBuVjNv9AatVMpFqeKh1X2gE8olD9ZeFjm8BpuTQB_JLz7ELKbtKml-xdBnPN4awh1wQhRqVmej-0-ZPMsqQDkW67O9QpbsHfL8iKOjKFkKNz3QfVmMoI4dtpAYsfUpaF2CzkPogFsb8JuJFxG4CE-VxHpu5G-pczcS1eZZORKf61L888wRyeymoBdJEBZM41J67jqTvFTMtIOk_EP-xSDXoYSSXIlXTFMhNfPHCuj-E1GKikvwi6aV-2HftX0WTvdar984TSRtmPItBRv6mCcG-jt4ZmOlpulNLMVxksfjb4-yOq4NgSTuLNY0Bb7WU-sVJ6-QXIUdmhsFw7Q07uLK7QazEZL5tBKk1WcLXXkGoJ6Rr-cBOwEF3JcyhcbJEJIjXLQNwpXkFlium8wJGeCQt9iRQ93VecVW9jg_vf3AwL5Qn5fjx4ibOndDwrFGOx8TcG6RUBAipNL358IhMJpLHEuWSXw5SjZnVzZulVYfZfHfiLLoLGdXOR83V6QFvJ5NIbGRz01g6NIYkyaS-wHlUzLCKwmTi1ZOefGYqAmkB4g_w8a71DTWf6LtF4bk3kwapnjRuEAM1zJDOC-Py8aSHhdDAyOYkwu7mbopz6hSXB0ez3sVI8usBI5YD8jRrFz4WNNINPm2ehMF2Apv5yUfukW-2K3FUoXgAb_PFVCjVkLJw0PA9GzjAC6rMCEhfpma2QFaiytacDCK49pXRznXcLFTGRgxQlpTayWWy9N1d7rxrpNylqQnSlxz8CSm7rrRpiAahEBXYA7-PpA6jhwKT9st41YSPSEZhA2HX6DzNc8_tVbfpwLJmRUqmGxzCKrPc7oUf--KaSc5kk2OEdo9xYvF1uRnRmkC8uMxkmQTDl0g8oApPVvJw_cfDteHlPm4iPn2Y2JSwZYVpg93IWvH4KN9IjZcN7JvLANR7CkaD_PUwS13X8SXlhTJvQRdGHq_PZwUVueOa7To_dfjUH3x9kisoDEzNs3pZSLTy7-iGDKLGO_-r8thCYlW7md2roPol3I4uukTnR6K90P36CwvkhRTBAfJPSMx4jwrgEFw8dt5IXdD41mwvmeH34M6uYCdgI01WiyP6HBcH1AwsuXg-Dv3-gft_Fh43Bf3qq_-sLCyfQ7AHCd6m4rymLoyJGTeFLeWW3tBhUmDoF33anW6eaY3iIri1x5WXppR-_cyBXixlJzvLbLJ2uVnJaAR1XzXPvf66AjE5Q7iliOianJOL0YOxp1za8tJ9zyh70lftSDnK66wZJ2ajwzPb_eTE1VDleDVR2VgBKj1LHUxbGuf_LymmX7Op8GU3pzmAC02mt3lpQAZzg3Ejb5w_cbmu1s1fDrOXVbfWC3ThJZRxQeCSBKG9dWsc0Ebhj7KJt9_WzYV_pXh599_7xDfT0A3gU8rjIfEqzU0y4zQeLv_yLA=w1798-h1556"
-          alt="car"
-        />
+        <img width={1200} src="\assets\Group 52.webp" alt="car" />
       </div>
       <div>
         <section className="bg-white">
