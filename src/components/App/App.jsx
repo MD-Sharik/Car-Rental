@@ -17,7 +17,7 @@ function App() {
           <button>
             <Link to="/about">
               <img
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                src="\assets\en_badge_web_generic.png"
                 alt="GooglePlay"
                 width={220}
               />
@@ -25,11 +25,7 @@ function App() {
           </button>
           <button>
             <Link to="/about">
-              <img
-                src="public\assets\Appstore.png"
-                alt="Appstore"
-                width={210}
-              />
+              <img src="\assets\Appstore.png" alt="Appstore" width={210} />
             </Link>
           </button>
         </div>
