@@ -45,52 +45,52 @@ function Standard() {
         <MultiCard
           ImgLink={"/assets/ST (1).webp"}
           onClick={handleImageClick}
-          model={"F-458"}
+          model={"M-Axela"}
         />
         <MultiCard
           ImgLink={"/assets/ST (2).webp"}
           onClick={handleImageClick}
-          model={"L-Aventador"}
+          model={"M-Benz CLA"}
         />
         <MultiCard
           ImgLink={"/assets/ST (3).webp"}
           onClick={handleImageClick}
-          model={"L-Gallardo"}
+          model={"M-Benz S Class"}
         />
         <MultiCard
           ImgLink={"/assets/ST (4).webp"}
           onClick={handleImageClick}
-          model={"C-Auivo"}
+          model={"S-Octavia"}
         />
         <MultiCard
           ImgLink={"/assets/ST (5).webp"}
           onClick={handleImageClick}
-          model={"B-Veyron"}
+          model={"T-Corolla"}
         />
         <MultiCard
           ImgLink={"/assets/ST (6).webp"}
           onClick={handleImageClick}
-          model={"F-488"}
+          model={"V-Passat"}
         />
         <MultiCard
           ImgLink={"/assets/ST (7).webp"}
           onClick={handleImageClick}
-          model={"F-F12TDF"}
+          model={"A-RS7"}
         />
         <MultiCard
           ImgLink={"/assets/ST (8).webp"}
           onClick={handleImageClick}
-          model={"F-812"}
+          model={"C-Camero"}
         />
         <MultiCard
           ImgLink={"/assets/ST (9).webp"}
           onClick={handleImageClick}
-          model={"P-Huayra"}
+          model={"H-Civic"}
         />
         <MultiCard
           ImgLink={"/assets/ST (10).webp"}
           onClick={handleImageClick}
-          model={"L-Huracan"}
+          model={"H-Verna"}
         />
       </div>
     </>
