@@ -92,10 +92,6 @@ function Offroad() {
           model={"T-Prado"}
         />
       </div>
-      <div className="bg-red-50 h-24">
-        <h2>Hyper</h2>
-        <p>We have Served Over 1.5K+ Hyper Cars</p>
-      </div>
     </>
   );
 }
