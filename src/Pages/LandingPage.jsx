@@ -17,7 +17,7 @@ function LandingPage() {
           <img
             width={600}
             height={"auto"}
-            src="public/assets/HeroCar.webp"
+            src="/assets/HeroCar.webp"
             className="absolute w-[24rem] mt-[28rem] flex justify-center sm:w-[24rem] md:mt-[28rem]  md:w-[600px] inset-0 mx-auto"
             style={{ filter: "drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3))" }}
             alt="hero"

@@ -5,7 +5,7 @@ import BackBtn from "../../components/BackBtn/BackBtn.jsx";
 import Served from "../../components/Served/Served.jsx";
 
 function Hyper() {
-  const [heroImage, setHeroImage] = useState("public/assets/Hyper.webp");
+  const [heroImage, setHeroImage] = useState("/assets/Hyper.webp");
 
   const handleImageClick = (newImage) => {
     setHeroImage(newImage);
@@ -43,52 +43,52 @@ function Hyper() {
       {/* Image Gallery */}
       <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 lg:mx-[14rem]">
         <MultiCard
-          ImgLink={"public/assets/Hyper.webp"}
+          ImgLink={"/assets/Hyper.webp"}
           onClick={handleImageClick}
           model={"F-458"}
         />
         <MultiCard
-          ImgLink={"public/assets/H2.webp"}
+          ImgLink={"/assets/H2.webp"}
           onClick={handleImageClick}
           model={"L-Aventador"}
         />
         <MultiCard
-          ImgLink={"public/assets/H3.webp"}
+          ImgLink={"/assets/H3.webp"}
           onClick={handleImageClick}
           model={"L-Gallardo"}
         />
         <MultiCard
-          ImgLink={"public/assets/H4.webp"}
+          ImgLink={"/assets/H4.webp"}
           onClick={handleImageClick}
           model={"C-Auivo"}
         />
         <MultiCard
-          ImgLink={"public/assets/H5.webp"}
+          ImgLink={"/assets/H5.webp"}
           onClick={handleImageClick}
           model={"B-Veyron"}
         />
         <MultiCard
-          ImgLink={"public/assets/H6.webp"}
+          ImgLink={"/assets/H6.webp"}
           onClick={handleImageClick}
           model={"F-488"}
         />
         <MultiCard
-          ImgLink={"public/assets/H7.webp"}
+          ImgLink={"/assets/H7.webp"}
           onClick={handleImageClick}
           model={"F-F12TDF"}
         />
         <MultiCard
-          ImgLink={"public/assets/H8.webp"}
+          ImgLink={"/assets/H8.webp"}
           onClick={handleImageClick}
           model={"F-812"}
         />
         <MultiCard
-          ImgLink={"public/assets/H9.webp"}
+          ImgLink={"/assets/H9.webp"}
           onClick={handleImageClick}
           model={"P-Huayra"}
         />
         <MultiCard
-          ImgLink={"public/assets/H10.webp"}
+          ImgLink={"/assets/H10.webp"}
           onClick={handleImageClick}
           model={"L-Huracan"}
         />

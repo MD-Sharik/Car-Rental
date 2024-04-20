@@ -5,7 +5,7 @@ import BackBtn from "../../components/BackBtn/BackBtn.jsx";
 import Served from "../../components/Served/Served.jsx";
 
 function Customised() {
-  const [heroImage, setHeroImage] = useState("public/assets/Customize.webp");
+  const [heroImage, setHeroImage] = useState("/assets/Customize.webp");
 
   const handleImageClick = (newImage) => {
     setHeroImage(newImage);
@@ -43,52 +43,52 @@ function Customised() {
       {/* Image Gallery */}
       <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 lg:mx-[14rem]">
         <MultiCard
-          ImgLink={"public/assets/Customize.webp"}
+          ImgLink={"/assets/Customize.webp"}
           onClick={handleImageClick}
           model={"S-WRX STI"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (1).webp"}
+          ImgLink={"/assets/C (1).webp"}
           onClick={handleImageClick}
           model={"F-Mustang Panther"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (2).webp"}
+          ImgLink={"/assets/C (2).webp"}
           onClick={handleImageClick}
           model={"M-Miata Pink"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (3).webp"}
+          ImgLink={"/assets/C (3).webp"}
           onClick={handleImageClick}
           model={"T-GT86 R"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (4).webp"}
+          ImgLink={"/assets/C (4).webp"}
           onClick={handleImageClick}
           model={"M-Evolution VIII"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (5).webp"}
+          ImgLink={"/assets/C (5).webp"}
           onClick={handleImageClick}
           model={"M-Evolution IX "}
         />
         <MultiCard
-          ImgLink={"public/assets/C (6).webp"}
+          ImgLink={"/assets/C (6).webp"}
           onClick={handleImageClick}
           model={"B-M4 Red Demon"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (7).webp"}
+          ImgLink={"/assets/C (7).webp"}
           onClick={handleImageClick}
           model={"F-Mustang GT Mantis"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (8).webp"}
+          ImgLink={"/assets/C (8).webp"}
           onClick={handleImageClick}
           model={"T-Supera MK4"}
         />
         <MultiCard
-          ImgLink={"public/assets/C (9).webp"}
+          ImgLink={"/assets/C (9).webp"}
           onClick={handleImageClick}
           model={"M-Cooper Black"}
         />

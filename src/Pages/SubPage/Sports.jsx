@@ -5,9 +5,7 @@ import BackBtn from "../../components/BackBtn/BackBtn.jsx";
 import Served from "../../components/Served/Served.jsx";
 
 function Sports() {
-  const [heroImage, setHeroImage] = useState(
-    "public/assets/Sp-Aston Martin.webp"
-  );
+  const [heroImage, setHeroImage] = useState("/assets/Sp-Aston Martin.webp");
 
   const handleImageClick = (newImage) => {
     setHeroImage(newImage);
@@ -45,52 +43,52 @@ function Sports() {
       {/* Image Gallery */}
       <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 lg:mx-[14rem]">
         <MultiCard
-          ImgLink={"public/assets/Sp-Aston Martin.webp"}
+          ImgLink={"/assets/Sp-Aston Martin.webp"}
           onClick={handleImageClick}
           model={"AM-Vanquish"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Audi R8.webp"}
+          ImgLink={"/assets/Sp-Audi R8.webp"}
           onClick={handleImageClick}
           model={"A-R8"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-BMW M3.webp"}
+          ImgLink={"/assets/Sp-BMW M3.webp"}
           onClick={handleImageClick}
           model={"B-M4"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Lexus Lc.webp"}
+          ImgLink={"/assets/Sp-Lexus Lc.webp"}
           onClick={handleImageClick}
           model={"L-LC"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Bmw M5.webp"}
+          ImgLink={"/assets/Sp-Bmw M5.webp"}
           onClick={handleImageClick}
           model={"B-M5"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Ford Mustang.webp"}
+          ImgLink={"/assets/Sp-Ford Mustang.webp"}
           onClick={handleImageClick}
           model={"F-Mustang"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Jaguar F15.webp"}
+          ImgLink={"/assets/Sp-Jaguar F15.webp"}
           onClick={handleImageClick}
           model={"F-F15"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Nissan Z.webp"}
+          ImgLink={"/assets/Sp-Nissan Z.webp"}
           onClick={handleImageClick}
           model={"N-370Z"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Porsche Caymen.webp"}
+          ImgLink={"/assets/Sp-Porsche Caymen.webp"}
           onClick={handleImageClick}
           model={"P-Caymen"}
         />
         <MultiCard
-          ImgLink={"public/assets/Sp-Subaru.webp"}
+          ImgLink={"/assets/Sp-Subaru.webp"}
           onClick={handleImageClick}
           model={"S-WRX"}
         />

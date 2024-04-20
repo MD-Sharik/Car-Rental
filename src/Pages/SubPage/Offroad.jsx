@@ -4,7 +4,7 @@ import Stats from "../../components/Stats/Stats.jsx";
 import BackBtn from "../../components/BackBtn/BackBtn.jsx";
 import Served from "../../components/Served/Served.jsx";
 function Offroad() {
-  const [heroImage, setHeroImage] = useState("public/assets/Offroad.webp");
+  const [heroImage, setHeroImage] = useState("/assets/Offroad.webp");
 
   const handleImageClick = (newImage) => {
     setHeroImage(newImage);
@@ -42,52 +42,52 @@ function Offroad() {
       {/* Image Gallery */}
       <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 lg:mx-[14rem]">
         <MultiCard
-          ImgLink={"public/assets/Offroad.webp"}
+          ImgLink={"/assets/Offroad.webp"}
           onClick={handleImageClick}
           model={"J-Cherokee"}
         />
         <MultiCard
-          ImgLink={"public/assets/J2.webp"}
+          ImgLink={"/assets/J2.webp"}
           onClick={handleImageClick}
           model={"J-Wrangler"}
         />
         <MultiCard
-          ImgLink={"public/assets/J3.webp"}
+          ImgLink={"/assets/J3.webp"}
           onClick={handleImageClick}
           model={"T-Hilux"}
         />
         <MultiCard
-          ImgLink={"public/assets/J4.webp"}
+          ImgLink={"/assets/J4.webp"}
           onClick={handleImageClick}
           model={"T-Prado 150"}
         />
         <MultiCard
-          ImgLink={"public/assets/J5.webp"}
+          ImgLink={"/assets/J5.webp"}
           onClick={handleImageClick}
           model={"T-Hilux Vigo"}
         />
         <MultiCard
-          ImgLink={"public/assets/J6.webp"}
+          ImgLink={"/assets/J6.webp"}
           onClick={handleImageClick}
           model={"J-Grand Cheroke"}
         />
         <MultiCard
-          ImgLink={"public/assets/J7.webp"}
+          ImgLink={"/assets/J7.webp"}
           onClick={handleImageClick}
           model={"F-F150"}
         />
         <MultiCard
-          ImgLink={"public/assets/J8.webp"}
+          ImgLink={"/assets/J8.webp"}
           onClick={handleImageClick}
           model={"J-Willys"}
         />
         <MultiCard
-          ImgLink={"public/assets/J9.webp"}
+          ImgLink={"/assets/J9.webp"}
           onClick={handleImageClick}
           model={"L-Niva"}
         />
         <MultiCard
-          ImgLink={"public/assets/J10.webp"}
+          ImgLink={"/assets/J10.webp"}
           onClick={handleImageClick}
           model={"T-Prado"}
         />
