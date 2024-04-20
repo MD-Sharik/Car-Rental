@@ -36,7 +36,7 @@ function App() {
       </div>
       <div className="hidden lg:flex lg:justify-end lg:items-end ">
         <img
-          src="public\assets\App.png"
+          src="public\assets\App.webp"
           alt="App"
           width={600}
           className="object-contain"
