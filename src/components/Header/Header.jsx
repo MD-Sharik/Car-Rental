@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="flex justify-between sticky top-0 z-[999] bg-white items-center py-[1.5rem] px-4 md:px-10 shadow-sm">
+      <div className="flex justify-between sticky top-0 z-[999] bg-white items-center py-[1.5rem] px-4 md:px-10 ">
         <div>
           <Link to="/">
             <img width={50} src="\assets\icon.png" alt="Logo" />

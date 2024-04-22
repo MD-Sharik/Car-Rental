@@ -3,7 +3,7 @@ import SingleCard from "../SingleCard/SingleCard";
 
 function CatPrev() {
   return (
-    <div className=" px-2 gap-6 flex-1 sm:flex-1 m-auto flex flex-wrap justify-evenly sm:basis-[16rem] mt-16 sm:px-[8rem] lg:justify-center ">
+    <div className=" px-2 gap-6 flex-1  m-auto flex flex-wrap justify-evenly sm:basis-[16rem] mt-16 sm:px-[8rem] lg:justify-center ">
       <SingleCard to={"hyper"} Title={"Hyper"} ImgLink="\assets\Hyper.webp" />
       <SingleCard
         to={"/sports"}

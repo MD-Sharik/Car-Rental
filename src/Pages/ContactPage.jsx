@@ -7,7 +7,7 @@ function ContactPage() {
     <>
       <div className="py-8 mb-5 flex w-[50vw] justify-start ml-auto mr-auto mt-10">
         <div>
-          <BackBtn Page={"About"} />
+          <BackBtn Page={"Contact"} />
         </div>
       </div>
       <div className="flex justify-center object-contain my-4 px-12">

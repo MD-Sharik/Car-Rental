@@ -11,25 +11,43 @@ function LandingPage() {
       <div className="relative">
         {/* Block 1 */}
         <div
-          className="min-h-[54rem] relative bg-gradient-to-b from-red-50 to-white py-11 md:bg-transparent"
+          className="h-[45rem] py-28 text-center lxg:text-left lxg:w-[70rem] m-auto justify-center gap-8 relative bg-gradient-to-b flex "
           id="block1"
         >
-          <img
-            width={600}
-            height={"auto"}
-            src="/assets/HeroCar.webp"
-            className="absolute w-[24rem] mt-[28rem] flex justify-center sm:w-[24rem] md:mt-[28rem]  md:w-[600px] inset-0 mx-auto"
-            style={{ filter: "drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3))" }}
-            alt="hero"
-          />
-          <div className="mx-14 mt-11 flex justify-center basis-[16rem] sm:mx-24">
-            <Form />
+          <div className="py-10 px-7">
+            <h4 className="font-semibold text-2xl mb-3">Plan your trip now</h4>
+            <h2 className="max-w-[16ch] m-auto lxg:ml-0 font-bold text-5xl mb-5">
+              <span className="text-red-500">Save big</span> with our car rental
+            </h2>
+            <p className="max-w-[55ch] m-auto lxg:ml-0 mb-6">
+              Rent the car of your dreams. Unbeatable prices, unlimited miles,
+              flexible pick-up options and much more.
+            </p>
+            <div className="mt-12 sm:mt-9 flex items-center flex-col sm:flex-row sm:justify-center  lxg:justify-start sm:gap-4">
+              <a href="#block3">
+                <button className="bg-red-600 w-48 mb-4 sm:mb-0 sm:min-w-[10rem] transition-all shadow-lg shadow-red-300 hover:shadow-lg hover:scale-105 hover:shadow-red-400 text-white px-12 py-3 rounded-sm">
+                  Book Ride
+                </button>
+              </a>
+              <Link to="/about">
+                <button className="bg-black w-48 mb-4 sm:mb-0 sm:min-w-[10rem] transition-all shadow-lg shadow-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:scale-105 text-white px-12 py-3 rounded-sm">
+                  Learn More
+                </button>
+              </Link>
+            </div>
           </div>
-          <img
-            src="assets/Clippathgroup.png"
-            className="hidden md:block absolute  inset-0 mx-auto z-[-2]"
-            alt="img"
-          />
+          <div className="py-10 hidden lxg:block px-7">
+            <img
+              width={600}
+              height={"auto"}
+              src="/assets/HeroCar.webp"
+              style={{ filter: "drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3))" }}
+              alt="hero"
+            />
+          </div>
+        </div>
+        <div className="mx-14 mt-11 flex justify-center basis-[16rem] sm:mx-24">
+          <Form />
         </div>
 
         {/* Block 2 */}
