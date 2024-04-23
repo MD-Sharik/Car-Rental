@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="flex justify-between sticky top-0 z-[999] bg-white items-center py-[1.5rem] px-4 md:px-10 ">
+      <div className="flex justify-between md:justify-evenly sticky top-0 z-[999] backdrop-blur-sm bg-white/90 items-center py-[1.5rem] px-4 md:px-10 ">
         <div>
           <Link to="/">
             <img width={50} src="\assets\icon.png" alt="Logo" />
@@ -68,10 +68,10 @@ function Header() {
           />
         </div>
         <div className="hidden md:flex gap-6">
-          <button className="text-red-600 text-md font-medium">
+          <button className="text-red-600 hover:scale-105  transition-all text-md font-medium">
             <Link to="/login">Login</Link>
           </button>
-          <button className="bg-red-600 text-white px-[1.8rem] font-medium py-[0.5rem] rounded-sm shadow-lg shadow-red-200">
+          <button className="bg-red-600 hover:scale-105 hover:shadow-lg hover:shadow-red-300 transition-all text-white px-[1.8rem] font-medium py-[0.5rem] rounded-sm shadow-lg shadow-red-200">
             <Link to="signup">Signup</Link>
           </button>
         </div>
