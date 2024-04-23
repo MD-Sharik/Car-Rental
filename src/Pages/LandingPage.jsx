@@ -15,8 +15,10 @@ function LandingPage() {
           id="block1"
         >
           <div className="py-10 px-7">
-            <h4 className="font-semibold text-2xl mb-3">Plan your trip now</h4>
-            <h2 className="max-w-[16ch] m-auto lxg:ml-0 font-bold text-5xl mb-5">
+            <h4 className="font-semibold sm:text-3xl text-2xl mb-3">
+              Plan your trip now
+            </h4>
+            <h2 className="max-w-[16ch] m-auto sm:text-6xl lxg:ml-0 font-bold text-5xl mb-5">
               <span className="text-red-500">Save big</span> with our car rental
             </h2>
             <p className="max-w-[55ch] m-auto lxg:ml-0 mb-6">
@@ -36,9 +38,9 @@ function LandingPage() {
               </Link>
             </div>
           </div>
-          <div className="py-10 hidden lxg:block px-7">
+          <div className="py-10  items-end hidden lxg:flex px-7">
             <img
-              width={600}
+              width={1200}
               height={"auto"}
               src="/assets/HeroCar.webp"
               style={{ filter: "drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3))" }}
