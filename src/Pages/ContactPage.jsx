@@ -10,7 +10,7 @@ function ContactPage() {
           <BackBtn Page={"Contact"} />
         </div>
       </div>
-      <div className="flex justify-center object-contain my-4 px-12">
+      <div className="flex justify-center object-contain my-16 px-12">
         <img width={1200} src="\assets\Group 52.webp" alt="car" />
       </div>
       <div>

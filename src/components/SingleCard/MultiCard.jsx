@@ -18,7 +18,6 @@ function MultiCard({ model, ImgLink, onClick }) {
               src={ImgLink}
               alt="Car"
               className="w-full h-[8rem] object-scale-down"
-              loading="lazy"
             />
           </div>
         </div>

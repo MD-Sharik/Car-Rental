@@ -1,6 +1,5 @@
 import React from "react";
 import BackBtn from "../components/BackBtn/BackBtn";
-import { Link } from "react-router-dom";
 import App from "../components/App/App";
 
 function AboutPage() {
@@ -12,7 +11,7 @@ function AboutPage() {
         </div>
       </div>
       <div className="m-auto flex flex-col items-center">
-        <div className="m-auto object-contain my-4 px-12">
+        <div className="m-auto object-contain my-16 px-12">
           <img width={1200} src="\assets\Group 51.webp" alt="car" />
         </div>
         <div className="block text-center smd:text-left smd:flex justify-between m-auto px-11 py-6 gap-11 mt-8 mb-8 ">
