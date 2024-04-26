@@ -1,27 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
+import Popup from "../Popup/Popup.jsx";
+import "../Stats/style.css";
 
 function Form() {
+  const [isopen, setisopen] = useState(false);
+
+  const handleSearchButtonClick = (e) => {
+    e.preventDefault();
+    setisopen(true);
+  };
+
   return (
     <>
+      {isopen && <Popup isopen={isopen} onClose={setisopen} />}
       <div className="bg-white rounded-xl w-[70rem] p-6 drop-shadow-xl outline-1 outline-red-300 outline">
-        <form class="w-full  m-auto">
+        <form className="w-full  m-auto">
           <div className="mb-6 px-3 font-bold text-2xl">
             <h2>Book a car</h2>
           </div>
-          <div class="flex flex-1 flex-wrap  mb-6">
-            <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+          <div className="flex flex-1 flex-wrap  mb-6">
+            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="grid-first-name"
+                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                htmlFor="grid-first-name"
               >
                 Car
               </label>
               <select
-                class="appearance-none  block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                className="appearance-none  block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Jane"
+                required
               >
+                <option>Select a car</option>
                 <option>F-458</option>
                 <option>L-Aventador</option>
                 <option>L-Gallardo</option>
@@ -89,80 +101,85 @@ function Form() {
                 <option>M-Cooper Black</option>
               </select>
             </div>
-            <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="grid-first-name"
+                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                htmlFor="grid-first-name"
               >
                 Pick-up
               </label>
               <select
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                required
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Jane"
               >
+                <option value="">Select a location</option>
                 <option value="Nd">New Delhi</option>
-                <option value="Hd">Hydrabad</option>
-                <option value="Pj">Punjab</option>
-                <option value="Mb">Mumbai</option>
-                <option value="Kr">Karnataka</option>
-                <option value="Gj">Gujrat</option>
+                <option value="Hd">Hyderabad</option>
+                <option value="Hd">Gujarat</option>
+                <option value="Hd">Mumbai</option>
               </select>
             </div>
-            <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="grid-first-name"
+                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                htmlFor="grid-first-name"
               >
                 Drop-off
               </label>
               <select
-                class="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                required
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="text"
                 placeholder="Jane"
               >
+                <option value="">Select a location</option>
                 <option value="Nd">New Delhi</option>
-                <option value="Hd">Hydrabad</option>
-                <option value="Pj">Punjab</option>
-                <option value="Mb">Mumbai</option>
-                <option value="Kr">Karnataka</option>
-                <option value="Gj">Gujrat</option>
+                <option value="Hd">Hyderabad</option>
+                <option value="Hd">Gujarat</option>
+                <option value="Hd">Mumbai</option>
               </select>
             </div>
           </div>
-          <div class="flex  flex-1 flex-wrap  mb-2">
-            <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+          <div className="flex  flex-1 flex-wrap  mb-2">
+            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="grid-city"
+                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                htmlFor="grid-city"
               >
                 Pick-up Date
               </label>
               <input
-                class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-state"
                 type="date"
+                required
               />
             </div>
-            <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
               <label
-                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                for="grid-state"
+                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                htmlFor="grid-state"
               >
                 Drop-off Date
               </label>
-              <div class="relative">
+              <div className="relative">
                 <input
-                  class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-state"
                   type="date"
+                  required
                 />
               </div>
             </div>
             <div className="w-full md:w-1/3 px-3  md:mb-0  text-white text-xl font-semibold">
-              <button className="bg-red-500 transition-all mb-6 w-full h-12 rounded-sm shadow-md hover:shadow-lg hover:shadow-red-400 shadow-red-300 md:mt-6">
+              <button
+                onClick={handleSearchButtonClick}
+                className="bg-red-500 transition-all mb-6 w-full h-12 rounded-sm shadow-md hover:shadow-lg hover:shadow-red-400 shadow-red-300 md:mt-6"
+              >
                 Search
               </button>
             </div>

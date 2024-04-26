@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import Sidebar from "../Sidebar/Sidebar";
-
+import Sidebar from "./Sidebar/Sidebar";
 function Header() {
+  const [open, setopen] = useState(false);
   return (
     <>
+      {open && <Sidebar setopen={setopen} />}
+
       <div className="flex justify-between md:justify-evenly sticky top-0 z-[999] backdrop-blur-sm bg-white/90 items-center py-[1.5rem] px-4 md:px-10 ">
         <div>
           <Link to="/">
@@ -66,6 +68,10 @@ function Header() {
             height="30"
             src="https://img.icons8.com/ios-filled/50/dc2626/menu--v1.png"
             alt="menu--v1"
+            onClick={() => {
+              console.log("cliked");
+              setopen(!open);
+            }}
           />
         </div>
         <div className="hidden md:flex gap-6">

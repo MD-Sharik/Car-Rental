@@ -69,7 +69,7 @@ function Hyper() {
       {/* Hero Image */}
 
       {/* Image Gallery */}
-      <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 ">
+      <div className="flex flex-wrap mx-[4rem] my-9 justify-center sm:flex-1 sm:basis-64 md:mx-[2rem] md:basis-64 lg:basis-96 lg:mx-[14rem]">
         <MultiCard
           ImgLink={"/assets/Hyper.webp"}
           onClick={() => handleImageClick("/assets/Hyper.webp", "F-458")}
