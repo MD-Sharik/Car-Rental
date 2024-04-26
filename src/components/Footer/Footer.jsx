@@ -5,7 +5,11 @@ function Footer() {
       <div>
         <footer className="bg-zinc-100 ">
           <div className="mx-auto w-full max-w-screen-xl">
-            <h1 className="font-bold py-5 px-4 text-3xl">Carrento</h1>
+            <div className="flex items-center">
+              <img src="public\assets\icon.png" width={36} alt="" />
+              <h1 className="font-bold py-5 px-4 text-3xl">Carrento</h1>
+            </div>
+
             <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">

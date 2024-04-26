@@ -85,9 +85,9 @@ function LoginPage() {
                   Don’t have an account yet?{" "}
                   <Link
                     to="/signup"
-                    class="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                    class="font-medium text-gray-600 hover:underline"
                   >
-                    Sign up
+                    Sign up here
                   </Link>
                 </p>
               </form>
