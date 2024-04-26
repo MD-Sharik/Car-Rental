@@ -6,7 +6,7 @@ function Footer() {
         <footer className="bg-zinc-100 ">
           <div className="mx-auto w-full max-w-screen-xl">
             <div className="flex items-center">
-              <img src="public\assets\icon.png" width={36} alt="" />
+              <img src="assets/icon.png" width={36} alt="" />
               <h1 className="font-bold py-5 px-4 text-3xl">Carrento</h1>
             </div>
 

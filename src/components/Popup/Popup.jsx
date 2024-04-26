@@ -22,7 +22,7 @@ function Popup({ onClose }) {
           <img
             width="56"
             height="56"
-            src="public\assets\icons8-success.gif"
+            src="/assets/icons8-success.gif"
             alt="Success"
             className="mb-3"
           />
