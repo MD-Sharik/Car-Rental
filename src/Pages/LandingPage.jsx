@@ -11,11 +11,11 @@ function LandingPage() {
       <div className="relative">
         {/* Block 1 */}
         <div
-          className="h-[45rem] py-28 text-center  lxg:text-left lxg:w-[70rem] m-auto justify-center gap-8 relative bg-gradient-to-b flex "
+          className="h-[45rem] py-10 sm:py-28 text-center  lxg:text-left lxg:w-[70rem] m-auto justify-center gap-8 relative bg-gradient-to-b flex "
           id="block1"
         >
           <div className="py-10 px-7">
-            <h4 className="font-semibold sm:text-2xl text-2xl mb-3">
+            <h4 className="font-semibold sm:text-2xl text-3xl mb-3">
               Plan your trip now
             </h4>
             <h2 className="max-w-[16ch] m-auto  sm:text-6xl lxg:ml-0 font-bold text-5xl mb-5">
@@ -48,7 +48,7 @@ function LandingPage() {
             />
           </div>
         </div>
-        <div className="mx-14 mt-11 flex justify-center basis-[16rem] sm:mx-24">
+        <div className="mx-14 mt-11 mb-20 flex justify-center basis-[16rem] sm:mx-24">
           <Form />
         </div>
 

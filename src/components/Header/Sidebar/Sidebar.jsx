@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Sidebar({ setopen }) {
   return (
     <div
       className={
-        "h-screen grid place-items-center w-screen fixed z-[1000] bg-white md:hidden"
+        "h-screen grid place-items-center w-screen fixed z-[1000] bg-white/80 backdrop-blur md:hidden"
       }
     >
       <div>
@@ -24,12 +25,24 @@ function Sidebar({ setopen }) {
         </div>
 
         <ul className="text-center text-xl">
-          <li className="mb-10 hover:text-red-500">ABOUT</li>
-          <li className="mb-10 hover:text-red-500">CONTACT</li>
-          <li className="mb-10 hover:text-red-500">GITHUB</li>
-          <li className="mb-10 hover:text-red-500">LINKED IN</li>
-          <li className="mb-10 hover:text-red-500">LOG IN</li>
-          <li className="hover:text-red-500">SIGN UP</li>
+          <Link to="/about">
+            <li className="mb-10 hover:text-red-500">ABOUT</li>
+          </Link>
+          <Link to="/contact">
+            <li className="mb-10 hover:text-red-500">CONTACT</li>
+          </Link>
+          <a href="https://github.com/md-Sharik/" target="_blank">
+            <li className="mb-10 hover:text-red-500">GITHUB</li>
+          </a>
+          <a href="https://www.linkedin.com/in/md-sharik/" target="_blank">
+            <li className="mb-10 hover:text-red-500">LINKED IN</li>
+          </a>
+          <Link to="/login">
+            <li className="mb-10 hover:text-red-500">LOG IN</li>
+          </Link>
+          <Link to="/signup">
+            <li className="hover:text-red-500">SIGN UP</li>
+          </Link>
         </ul>
       </div>
     </div>

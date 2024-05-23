@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-zinc-200 min-h-[30rem] px-20 flex justify-between">
+    <div className="bg-zinc-200 min-h-[30rem] px-4 sm:px-20 flex justify-between">
       <div className="py-20 text-center lg:text-left">
         <h2 className="text-5xl font-bold mb-6 max-w-[24ch] lg:w-full">
           Download our app to get most out of it
